@@ -9,12 +9,11 @@ for (let fila = 0; fila < MAX_FILA; fila++) {
    <div class="row">
    ${agregarColumnas()}
 
-   </div
+   </div>
    `
 }
   
-    
-    function agregarColumnas() {
+ function agregarColumnas() {
         let columnas = "";
         for (let columna = 0; columna <MAX_COL; columna++) {
             columnas += `
@@ -22,6 +21,7 @@ for (let fila = 0; fila < MAX_FILA; fila++) {
             `;
     }
     return columnas;
+    
 }
     
     
